@@ -12,7 +12,7 @@ import org.springframework.stereotype.Component;
 public class LoggingAspect {
 	private Logger logger=LogManager.getLogger(this.getClass());
 	
-	@AfterThrowing(pointcut = "exection(* *(..))")
+	@AfterThrowing(pointcut = "exection(* *(..))",throwing = "exception")
 	public void applicationServiceLog() {
 		
 	}
