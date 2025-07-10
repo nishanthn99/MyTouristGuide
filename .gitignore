@@ -1,26 +1,26 @@
 # See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
 
 # dependencies
-/node_modules
-/.pnp
-.pnp.js
+touristguidefe/node_modules
+touristguidefe/.pnp
+touristguidefe/.pnp.js
 
 # testing
-/coverage
+touristguidefe/coverage
 
 # production
-/build
+touristguidefe/build
 
 # misc
-.DS_Store
-.env.local
-.env.development.local
-.env.test.local
-.env.production.local
+touristguidefe/.DS_Store
+touristguidefe/.env.local
+touristguidefe/.env.development.local
+touristguidefe/.env.test.local
+touristguidefe/.env.production.local
 
-npm-debug.log*
-yarn-debug.log*
-yarn-error.log*
+touristguidefe/npm-debug.log*
+touristguidefe/yarn-debug.log*
+touristguidefe/yarn-error.log*
 
 HELP.md
 target/
